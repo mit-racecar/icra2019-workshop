@@ -4,11 +4,11 @@ The content will be built upon existing materials from previous/ongoing undergra
 programs offered at MIT. The organizers can find the existing materials in the following links.
 
 ### Course Material:
-| Course | Link |
-| ------ | ---- |
-| RACECAR software stack | https://github.com/mit-racecar |
-| MIT Freshman Robotics Course (Fall'18) | https://github.mit.edu/6a01-racecar __*__ |
-| MIT Junior/senior Robotics Course (Spring'18) | https://github.mit.edu/2018-RSS __*__ |
+| Course                                        | Link                                      |
+| --------------------------------------------- | ----------------------------------------- |
+| RACECAR software stack                        | https://github.com/mit-racecar            |
+| MIT Freshman Robotics Course (Fall'18)        | https://github.mit.edu/6a01-racecar __*__ |
+| MIT Junior/senior Robotics Course (Spring'18) | https://github.mit.edu/2018-RSS __*__     |
 
 __*__ To view content hosted on MIT’s Enterprise GitHub server, you will need to create a free Touchstone Collaboration Account.
 
