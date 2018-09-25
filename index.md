@@ -5,20 +5,24 @@ programs offered at MIT. The organizers can find the existing materials in the f
 
 ### Course Material:
 
+
 | Course                                        | Link                                      |
 | --------------------------------------------- | ----------------------------------------- |
 | RACECAR software stack                        | https://github.com/mit-racecar            |
-| MIT Freshman Robotics Course (Fall'18)        | https://github.mit.edu/6a01-racecar __*__ |
-| MIT Junior/senior Robotics Course (Spring'18) | https://github.mit.edu/2018-RSS __*__     |
+| MIT Freshman Robotics Course (Fall'18)        | https://github.mit.edu/6a01-racecar       |
+| MIT Junior/senior Robotics Course (Spring'18) | https://github.mit.edu/2018-RSS           |
 
 __*__ To view content hosted on MIT’s Enterprise GitHub server, you will need to create a free Touchstone Collaboration Account.
 
+
 ### Student-Made Videos:
+
 
 | Course | Link | 
 | ------ | ---- |
 | Independent Activities Period (Winter'18) | https://youtu.be/oIb0XtrPWFs |
 | Beaver Works Summer Institute (Summer'17) | https://youtu.be/UHa4HKa97m8 |
+
 
 ### High School Outreach Competitions
 | Course | Link |
