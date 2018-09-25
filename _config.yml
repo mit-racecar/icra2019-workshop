@@ -2,3 +2,5 @@ theme: jekyll-theme-minimal
 title: RACECAR Tutorial [ICRA '19]
 description: May 20-24, 2019 Montreal, Canada
 logo: /assets/img/racecar.png
+redcarpet:
+    extensions: ["tables", "autolink"]
