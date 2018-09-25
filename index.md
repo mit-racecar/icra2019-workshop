@@ -4,6 +4,7 @@ The content will be built upon existing materials from previous/ongoing undergra
 programs offered at MIT. The organizers can find the existing materials in the following links.
 
 ### Course Material:
+
 | Course                                        | Link                                      |
 | --------------------------------------------- | ----------------------------------------- |
 | RACECAR software stack                        | https://github.com/mit-racecar            |
@@ -13,6 +14,7 @@ programs offered at MIT. The organizers can find the existing materials in the f
 __*__ To view content hosted on MIT’s Enterprise GitHub server, you will need to create a free Touchstone Collaboration Account.
 
 ### Student-Made Videos:
+
 | Course | Link | 
 | ------ | ---- |
 | Independent Activities Period (Winter'18) | https://youtu.be/oIb0XtrPWFs |
