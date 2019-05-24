@@ -80,6 +80,23 @@ sudo apt install ros-melodic-velodyne ros-melodic-ackermann-msgs ros-melodic-joy
 sudo apt install ros-kinetic-velodyne ros-kinetic-ackermann-msgs ros-kinetic-joy ros-kinetic-serial
 ```
 
+### Step 3: Install the racecar code
+
+First make a `racecar_ws`:
+
+    mkdir -p ~/racecar_ws/src
+
+Clone the racecar code:
+
+    cd ~/racecar_ws/src
+    git clone https://github.com/mit-racecar/racecar_simulator.git
+
+Make the code:
+
+    cd ~/racecar_ws
+    catkin_make
+    source devel/setup.bash
+
 <!-- ======================================================================= -->
 
 <br/>
@@ -92,18 +109,20 @@ Based on your OS, follow the linked installation instructions below.
 * [Debian](https://docs.docker.com/install/linux/docker-ce/debian/)
 * [Fedora](https://docs.docker.com/install/linux/docker-ce/fedora/)
 
-### Step 2: Download our Docker Image
-Clone our Docker image repository with the following command
-```sh
-git clone https://github.com/mit-racecar/racecar_docker
-```
+### Step 2: Run the Docker Image
 
-If you don't have [git](https://git-scm.com/) installed, you can download a zip
-of the repo [here](https://github.com/mit-racecar/racecar_docker/archive/master.zip).
 
-### Step 3: Run the Docker Image
-Follow the README.md instructions in the repository. You can view them on
-GitHub [here](https://github.com/mit-racecar/racecar_docker/blob/master/README.md).
+Start the docker image by running:
+
+    sudo docker run -ti --net=host racecar/racecar
+
+This will download the docker image the first time it is run and will cache it for future use.
+
+On some operating systems (OS X?) the `--net=host` flag does not properly forward ports. This can be fixed by manually specifying:
+
+    sudo docker run -tip 6080:6080 -p 5900:5900 racecar/racecar
+
+For more instructions on using the docker image see [here](https://github.com/mit-racecar/racecar_docker/blob/master/README.md).
 
 <!-- ======================================================================= -->
 

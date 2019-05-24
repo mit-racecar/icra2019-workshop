@@ -24,10 +24,7 @@ template starter code. The template is still very sparse and you have plenty of
 freedom to implement any algorithm you'd like so long as the inputs and outputs
 are the same.
 
-## Download this Repository
-
-_If you're using the Docker image, you already have the simulator installed!
-Skip this step!_
+## Download the wall follower lab
 
 Clone this repository into your catkin workspace:
 
@@ -45,6 +42,7 @@ Then rebuild your workspace with ``catkin_make```:
 
     cd ~/racecar_ws
     catkin_make
+    source devel/setup.bash
 
 ## Simulator
 
@@ -124,12 +122,24 @@ the following may get you started in the right direction:
 
 ## Starter Code
 
-Make sure that your wall follower lives in the ros node initialized in this file:
+We have some start code for you in here:
 
     src/wall_follower.py
 
 However if you want to add more python files to keep your code organized, feel
 free to do so.
+
+The template code specifies a couple useful parameters which you can use to make your code more flexible:
+
+You must use the following ROS parameters in your follower:
+
+* ```desired_distance```: The distance in meters the racecar should maintain from the wall
+* ```velocity```: The speed the racecar should move in meters per second.
+* ```side```: The side the wall is following represented as an integer. +1 represents the left wall and -1 represents the right wall. We chose this convention because typically we will assume the car is pointing in the positive _x_ direction. That means the left side of the car will point to the positive _y_ axis and the right side will point to the negative _y_ axis. 
+
+To run your wall follower launch:
+
+    roslaunch wall_follower wall_follower.launch
 
 <br/>
 [Back](./)
