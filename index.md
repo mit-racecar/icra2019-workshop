@@ -22,13 +22,13 @@ reference.
 | 0900-0930 | Presentation on Platform Overview |
 | 0930-1000 | Computer Setup Check-In |
 | 1000-1030 | Coffee Break |
-| 1030-1200 | Wall Follower Labs [[Simulation]](./lab-wall-follow-sim) [[Hardware]](./lab-wall-follow-hardware) |
+| 1030-1200 | Wall Follower Labs |
 | 1200-1230 | Presentation from Steve McGill from TRI |
 | 1230-1330 | Lunch Break |
 | 1330-1345 | Presentation from Zach Dodds from HMC |
-| 1345-1500 | [Localization Lab](./lab-localization) |
+| 1345-1500 | Localization Lab |
 | 1500-1530 | Coffee Break |
-| 1530-1700 | [Race Prep](./race) |
+| 1530-1700 | Race Prep |
 | 1700-1730 | Race |
 
 
